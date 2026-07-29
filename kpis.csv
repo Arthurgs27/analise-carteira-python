@@ -1,0 +1,2 @@
+data_inicial;data_final;rebalanceamento;retorno_acumulado_carteira;retorno_acumulado_ibov;retorno_acumulado_cdi;retorno_anualizado_carteira;volatilidade_anualizada;indice_sharpe;drawdown_maximo
+2021-01-05;2026-07-29;diario;0,23955997054260014;0,46666900377874065;0,8094742116022198;0,039760465383604116;0,21289054338315022;-0,2163498331894587;-0,315586512563397
