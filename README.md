@@ -19,11 +19,8 @@ py Kpis.py
 ```
 
 `Projetop1.py` permanece como uma entrada compatível e executa a mesma rotina.
-##🔧 Stack utilizada
-- **Python** (yfinance, pandas, numpy) — coleta e tratamento de dados
-- **API do Banco Central (SGS)** — indicadores macroeconômicos (Selic, CDI)
-- **Power BI** — dashboard executivo
-  
+
+
 ## Premissas
 
 - Os preços vêm do Yahoo Finance e usam ajuste para proventos e desdobramentos.
@@ -33,6 +30,12 @@ py Kpis.py
   - `diario`: restaura os pesos iguais a cada pregão;
   - `comprar_e_manter`: aplica os pesos apenas no início.
 - São considerados 252 pregões por ano.
+- 
+ ##🔧 Stack utilizada
+- **Python** (yfinance, pandas, numpy) — coleta e tratamento de dados
+- **API do Banco Central (SGS)** — indicadores macroeconômicos (Selic, CDI)
+- **Power BI** — dashboard executivo
+  
 
 ## Arquivos gerados
 
