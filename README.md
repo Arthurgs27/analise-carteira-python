@@ -1,4 +1,4 @@
-# Análise de carteira
+# 📊 Análise de Risco e Performance de Carteira de Investimentos (B3)
 
 Projeto em Python para comparar uma carteira de oito ações brasileiras com o
 Ibovespa e o CDI. A rotina calcula retorno acumulado e anualizado, volatilidade,
@@ -19,7 +19,11 @@ py Kpis.py
 ```
 
 `Projetop1.py` permanece como uma entrada compatível e executa a mesma rotina.
-
+##🔧 Stack utilizada
+- **Python** (yfinance, pandas, numpy) — coleta e tratamento de dados
+- **API do Banco Central (SGS)** — indicadores macroeconômicos (Selic, CDI)
+- **Power BI** — dashboard executivo
+  
 ## Premissas
 
 - Os preços vêm do Yahoo Finance e usam ajuste para proventos e desdobramentos.
